@@ -1,4 +1,3 @@
-{"t":{"$date":"2022-05-09T17:25:41.325Z"},"s":"I",  "c":"NETWORK",  "id":4915701, "ctx":"-","msg":"Initialized wire specification","attr":{"spec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":13},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":13},"outgoing":{"minWireVersion":0,"maxWireVersion":13},"isInternalClient":false}}}
 {
 	"_id" : ObjectId("62794e24014a72111d53a293"),
 	"sex" : "Female",

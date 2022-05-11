@@ -1,0 +1,112 @@
+﻿[
+  {
+    "d": {
+"identity": 200,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1950,
+"name": "Joe Johnston"
+      }
+    },
+    "w1": {
+"identity": 201,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1970,
+"name": "Christopher Markus"
+      }
+    },
+    "w2": {
+"identity": 202,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1970,
+"name": "Stephen McFeely"
+      }
+    },
+    "w3": {
+"identity": 203,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1913,
+"name": "Joe Simon"
+      }
+    },
+    "a1": {
+"identity": 204,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1981,
+"name": "Chris Evans"
+      }
+    },
+    "a2": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    },
+    "a3": {
+"identity": 205,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1948,
+"name": "Samuel L. Jackson"
+      }
+    },
+    "dr": {
+"identity": 281,
+"start": 200,
+"end": 206,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "wr": {
+"identity": 282,
+"start": 201,
+"end": 206,
+"type": "WROTE",
+"properties": {
+
+      }
+    },
+    "ar": {
+"identity": 285,
+"start": 204,
+"end": 206,
+"type": "ACTED_IN",
+"properties": {
+
+      }
+    },
+    "m": {
+"identity": 206,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a \"Super-Soldier serum\". But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organization.",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    }
+  }
+]

@@ -1,0 +1,31 @@
+TWORZENIE DOKUMENTU
+Klucz: american_psycho_2000
+Dokument: {"title": "American Psycho", "year": 2000, "genres": ["crime", "drama", "horror"], "isRatingHigh": true}
+Wynik:
+{"status": 204, "body": ""}
+
+POBIERANIE DOKUMENTU
+Klucz: american_psycho_2000
+Wynik:
+{"status": 200, "body": {"title": "American Psycho", "year": 2000, "genres": ["crime", "drama", "horror"], "isRatingHigh": true}}
+
+AKTUALIZACJA DOKUMENTU
+Klucz: american_psycho_2000
+Dokument: {"title": "American Psycho", "year": 2002, "genres": ["crime", "drama", "horror"], "isRatingHigh": true}
+Wynik:
+{"status": 204, "body": ""}
+
+POBIERANIE ZAKTUALIZOWANEGO DOKUMENTU
+Klucz: american_psycho_2000
+Wynik:
+{"status": 200, "body": {"title": "American Psycho", "year": 2002, "genres": ["crime", "drama", "horror"], "isRatingHigh": true}}
+
+USUWANIE DOKUMENTU
+Klucz: american_psycho_2000
+Wynik:
+{"status": 204, "body": ""}
+
+POBIERANIE USUNIETEGO DOKUMNETU
+Klucz: american_psycho_2000
+Wynik:
+{"status": 404, "body": "not found\n"}

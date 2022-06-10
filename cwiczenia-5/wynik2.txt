@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8H0tiDFf8y/MAspkymBIZ81gZ1j4Qv8OXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25878>; rel="up"
+Last-Modified: Fri, 10 Jun 2022 15:35:09 GMT
+ETag: "5535RE8ZQL90Un8sWl9KrG"
+Date: Fri, 10 Jun 2022 15:36:45 GMT
+Content-Type: application/json
+Content-Length: 90
+
+{"title": "Jaws", "year": 1975, "genres": ["adventrue", "thriller"], "isRatingHigh": true}

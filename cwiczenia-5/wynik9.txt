@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8H0tiDFcyphyDCCUy5rEycD4Wv8OXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25878>; rel="up"
+Last-Modified: Fri, 10 Jun 2022 15:45:13 GMT
+ETag: "5Yyf4zn5jA2G5UhS4QiBSk"
+Date: Fri, 10 Jun 2022 15:45:38 GMT
+Content-Type: application/json
+Content-Length: 91
+
+{"title": "Pulp Fiction", "year": 1994, "genres": ["crime", "drama"], "isRatingHigh": true}

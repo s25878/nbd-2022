@@ -1,0 +1,63 @@
+1.
+curl -i -XPUT \
+-H "Content-Type: application/json" \
+-d '{"title": "American Psycho", "year": 2000, "genres": ["crime", "drama", "horror"], "isRatingHigh": true}' \
+http://localhost:8098/buckets/s25878/keys/american_psycho_2000
+
+curl -i -XPUT \
+-H "Content-Type: application/json" \
+-d '{"title": "Thing", "year": 1982, "genres": ["horror", "mystery", "sci-fi"], "isRatingHigh": true}' \
+http://localhost:8098/buckets/s25878/keys/thing_1982
+
+curl -i -XPUT \
+-H "Content-Type: application/json" \
+-d '{"title": "Jaws", "year": 1975, "genres": ["adventrue", "thriller"], "isRatingHigh": true}' \
+http://localhost:8098/buckets/s25878/keys/jaws_1975
+
+curl -i -XPUT \
+-H "Content-Type: application/json" \
+-d '{"title": "Heat", "year": 1995, "genres": ["action", "crime", "drama"], "isRatingHigh": true}' \
+http://localhost:8098/buckets/s25878/keys/heat_1995
+
+curl -i -XPUT \
+-H "Content-Type: application/json" \
+-d '{"title": "Top Gun", "year": 1986, "genres": ["action", "drama"], "isRatingHigh": true}' \
+http://localhost:8098/buckets/s25878/keys/top_gun_1986
+
+2.
+curl -i http://localhost:8098/buckets/s25878/keys/jaws_1975
+
+3.
+curl -i -XPUT \
+-H "Content-Type: application/json" \
+-d '{"title": "American Psycho", "year": 2000, "genres": ["crime", "drama", "horror"], "isRatingHigh": true, "director": "Mary Harron"}' \
+http://localhost:8098/buckets/s25878/keys/american_psycho_2000
+
+4.
+curl -i -XPUT \
+-H "Content-Type: application/json" \
+-d '{"title": "Heat", "year": 1995, "genres": ["action", "crime", "drama"]}' \
+http://localhost:8098/buckets/s25878/keys/heat_1995
+
+5.
+curl -i -XPUT \
+-H "Content-Type: application/json" \
+-d '{"title": "JAWS", "year": 1975, "genres": ["adventrue", "thriller"], "isRatingHigh": true}' \
+http://localhost:8098/buckets/s25878/keys/jaws_1975
+
+6.
+curl -i -XDELETE http://localhost:8098/buckets/s25878/keys/top_gun_1986
+
+7.
+curl -i http://localhost:8098/buckets/s25878/keys/top_gun_1986
+
+8.
+curl -i -XPOST -H "Content-Type: application/json" \
+-d '{"title": "Pulp Fiction", "year": 1994, "genres": ["crime", "drama"], "isRatingHigh": true}' \
+http://localhost:8098/buckets/s25878/keys
+
+9.
+curl -i http://localhost:8098/buckets/s25878/keys/6JIfzZuyQrd8dNU59x8aDxexTvd
+
+10.
+curl -i -XDELETE http://localhost:8098/buckets/s25878/keys/6JIfzZuyQrd8dNU59x8aDxexTvd

@@ -49,6 +49,7 @@ def start():
     request_delete = delete(sample_key)
     print("USUWANIE DOKUMENTU\nKlucz: " + sample_key + "\nWynik:\n" + request_delete, end = "\n\n")
 
+    # pobieranie usunietego dokumentu
     request_get_deleted = get(sample_key)
     print("POBIERANIE USUNIETEGO DOKUMNETU\nKlucz: " + sample_key + "\nWynik:\n" + request_get_deleted, end = "\n\n")
 
